@@ -1,89 +1,20 @@
+## Primera tarea HTML
+
 <p align="center">
-  <img src="https://globalacademyoficial.com/_next/static/media/logo_ga.b3948337.svg" alt="Propital" />
+  <img src="https://i.ibb.co/SvDYGz3/tarea-1-modelo-1.jpg" alt="tarea-1-modelo-1" border="0">
 </p>
 
-# Bienvenidos al repositorio de la comisión 21
+En nuestro primer trabajo crearemos la estructura HTML de nuestra primera página web. Para ello usaremos el modelo adjunto como guía.
 
-## Instructivo para descargar el repositorio
+## Consigna:
 
-Antes de comenzar asegurate tener instalado GIT en la computadora. Para revisar escribe en el buscador
-de Windows o del sistema operativo que tengas el programa GIT BASH. Si lo tienes está instalado correctamente.
+- Seleccionar una temática a gusto personal.
+- Repasar la estructura básica de etiquetas semánticas de que vimos en clase y aplicarla al body de nuestro documento para poder desarrollar en el. (section, article, nav, main, header, etc...)
+- Ir estructurando el sitio usando dichas etiquetas. Recordar prestar atención al uso de los headings (h1, h2, etc...)
+- Agregar en forma ordenada comentarios separadores tanto como el alumno considere apropiado. Por ejemplo un comentario que diga **HOME** para indicar donde comienza la sección Home. De esa forma cada sección tiene una forma visual para ser encontrada con facilidad.
+- La página no necesita ser identica a esa en estructura. Se le pueden agregar mas secciones, mas articulos o lo que se les vaya ocurriendo. Incluso pueden intentar investigar más etiquetas y pensar como aplicarlas. Usen un poco su imaginación. Esto hará que vayan surgiendo nuevas dudas y curiosidades. Sean curiosos!!
 
-1. Escribir en el buscador de windows el siguiente comando y luego dar Enter.
-```bash
-    cmd
-```
-2. Hacer click en el boton verde que dice "Code" del repositorio y copiar el enlace que allí figura.
-
-3. Ir a la terminal que abrieron con el cmd y escribir el siguiente comando. 
-Nota: Revisen bien en que carpeta van a ejecutar el comando para luego poder encontrar el archivo
-que se genera.
-```bash
-    git clone pegar_enlace_extraido_del_boton_Code
-```
-4. Una vez que ejecutan ese comando se debería crear una carpeta en la ubicación que figura en la terminal.
-Una vez que la carpeta se genera ya pueden arrastrarla al ícono de Visual Studio Code.
-
-## Comandos para recorrer en terminal
-1. Moverte a un archivo/carpeta (directorio) interno de la carpeta actual (directorio actual).
-```bash
-    cd nombre_archivo
-```
-2. Regresar al directorio anterior.
-```bash
-    cd ..
-```
-3. Revisar todos los archivos del directorio actual
-```bash
-    dir
-```
-4. Crear una nueva carpeta
-```bash
-    mkdir nombre_carpeta
-```
-5. Limpiar terminal
-```bash
-    cls
-```
-6. Cerrar terminal
-```bash
-    exit
-```
-
-
-## COMANDOS GIT
-
-- git init: inicializa git en un proyecto.
-- git remote add origin [enlace repo]: Conecta un proyecto con un repositorio.
-- git remote set-url origin [enlace nuevo repo]: Desvincula el proyecto de un repo, y lo vinculo al nuevo.
-
-### Preparamos nuestros cambios para ser enviados al repositrio.
-- git add [nombre achivo]: Registra un archivo para ser enviado al repo.
-- git add . : Registra todos los archivos.
-
-### Preparamos el backup
-- git commit -m [nombre commit]: Prepara una version segura a la cual podemos volver (un backup).
-
-### Enviamos las actualizaciones al repo
-- git push: Envia las actualizaciones a una rama generica
-- git push origin [nombre rama]: Envia las actualizacions a una rama origen (default)
-
-### Para revisar informacion
-- git status: Revisamos que esta registrado y que no. (rojo: no registrado. Verde: Registrado)
-- git log: revisamos la lista de commits realizados. (El que tiene el HEAD es el ultimo y apunta a la rama en la cual se realizó.)
-
-### Descargar de repo a PC
-- git clone [enlace repo]: Clona el proyecto del repo a la PC
-
-### Cambiar de rama
-- git checkout [nombre rama]
-
-### Actualizar el proyecto de repo a PC
-- git pull: Arrastra cambios que existen en el repo pero no en la PC, del repo a la PC.
-
-### Establecer tus datos de username e email
-- git config --global user.email "aldanacapoble@gmail.com"
-- git config --global user.name "Aldana Capoble"
-
-## Dar colaborador
-Entran al repo -> Settings -> Collaborators -> Add people -> Buscan a "lirico" (Matias Dominguez) avatar de atomo.
+## Nota:
+- Para clonar el repo **git clone "enlace al repo"**
+- Para bajar descargar nuevos cambios una vez clonado **git pull** estando parado en la rama de la cual se quieren bajar cambios.
+- Para cambiarte de rama **git checkout "nombre de rama"**
